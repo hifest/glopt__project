@@ -1,0 +1,38 @@
+.title{
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.promo{
+    min-height: 590px;
+    padding-top: 57px;
+    background-color: #f3f3f3;
+    &__box{
+        padding-top: 31px;
+        display: flex;
+    }
+    &__descr{
+        color: #3a3a3a;
+        width: 409px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__icon{
+        padding-right: 17px;
+    }
+    &__advantages{
+        display: flex;
+    }
+    &__text{
+        span{
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    &__block{
+        padding-right: 120px;
+    }
+}

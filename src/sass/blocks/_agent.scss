@@ -1,0 +1,22 @@
+.agent {
+    min-height: 342px;
+    background: url("/img/second_BG.webp") center center/cover no-repeat;
+    &__img{
+        padding-top: 58px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    &__title{
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr{
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

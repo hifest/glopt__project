@@ -1,0 +1,25 @@
+@import "libs/bootstrap-reboot.min";
+@import "base/variables";
+@import "base/_anomation";
+@import "blocks/_preloader";
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min.scss";
+@import "blocks/firstscreen";
+@import 'blocks/_button';
+@import "blocks/_promo";
+@import "blocks/guarantees";
+@import "blocks/agent";
+@import "blocks/price";
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container__delivery{
+    width: 1140px;
+    margin: 0 auto;
+}
+*{
+    outline: 0 !important;
+}
+.m0{
+    margin: 0 auto;
+}
